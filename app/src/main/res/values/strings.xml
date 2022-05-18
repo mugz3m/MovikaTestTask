@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test task</string>
+
+    <string name="first_fragment_label">Rocket launch interactive</string>
+    <string name="start">Start</string>
+    <string name="tap">tap_button</string>
+    <string name="try_again">Try again</string>
+    <string name="rocket_description">rocket_image</string>
+
+    <string name="launch_failed_label">Launch Failed!</string>
+    <string name="launch_success_label">Launch Success!</string>
+</resources>
