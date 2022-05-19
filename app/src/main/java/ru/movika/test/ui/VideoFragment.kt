@@ -52,6 +52,8 @@ class VideoFragment : Fragment() {
             tryAgain.visibility = View.VISIBLE
             startVideo(videoView, uriLaunch)
             isAnimationStart = false
+            timerLeft.setTextColor(Color.BLACK)
+            timerRight.setTextColor(Color.BLACK)
         }
 
         tryAgain.setOnClickListener {
@@ -119,6 +121,8 @@ class VideoFragment : Fragment() {
                 binding.timerTextViewRight.visibility = View.GONE
                 startVideo(videoView, failedLaunchVideoUri)
                 isAnimationStart = false
+                binding.timerTextViewLeft.setTextColor(Color.BLACK)
+                binding.timerTextViewRight.setTextColor(Color.BLACK)
             }
         }
         return timer
